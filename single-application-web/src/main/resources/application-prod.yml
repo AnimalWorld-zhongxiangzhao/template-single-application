@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    druid:
+      url: jdbc:mysql://127.0.0.1:3306/test?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&autoReconnect=true&failOverReadOnly=false
+      username: root
+      password: root
+      filter:
+        slf4j:
+          enabled: true
+logging:
+  level: info
